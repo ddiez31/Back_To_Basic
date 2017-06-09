@@ -1,0 +1,23 @@
+header {
+    height: 60px;
+    position: fixed;
+    background-color: $nav-color;
+    width: 100%;
+    nav {
+        width: 70%;
+        height: 90%;
+        margin: 1em auto;
+        .logo {
+            float: left;
+        }
+        .buttons {
+            float: right;
+            a {
+                text-decoration: none;
+                text-align: center;
+                color: white;
+                font-weight: bold;
+            }
+        }
+    }
+}

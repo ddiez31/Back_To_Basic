@@ -1,13 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<title>Back To Basic</title>
-		<link rel="stylesheet" type="text/css" href="css/app.css">
-	</head>
-	<body>
-		<h1>Héllo world</h1>
-		<p>Refaite le site <a href="https://www.trainline.fr/">Trainline</a></p>
-		<script type="text/javascript" src="js/app.js"></script>
-	</body>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Back To Basic</title>
+    <link rel="stylesheet" type="text/css" href="css/app.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#"><img src="img/trainline-logo-white.svg"></a>
+            </div>
+            <div class="buttons">
+                <button type="button">CREER UN COMPTE</button>
+                <button type="button">SE CONNECTER</button>
+                <a href="#">AIDE</a>
+                <ul class="languagepicker roundborders large">
+                    <a href="#fr">
+                        <li><img src="http://i65.tinypic.com/300b30k.png" /></li>
+                    </a>
+                    <a href="#en">
+                        <li><img src="http://i64.tinypic.com/fd60km.png" /></li>
+                    </a>
+                    <a href="#de">
+                        <li><img src="http://i63.tinypic.com/10zmzyb.png" /></li>
+                    </a>
+                    <a href="#es">
+                        <li><img src="http://i68.tinypic.com/avo5ky.png" /></li>
+                    </a>
+                    <a href="#it">
+                        <li><img src="http://i65.tinypic.com/23jl6bn.png" /></li>
+                    </a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="jumbotron">
+        <img src="img/train.jpg">
+        <div class="container">
+            <h1>Vos billets de train. Partout en Europe.</h1>
+            <h2>Réservez vos billets pour voyager en France et dans 19 pays européens.</h2>
+            <div class="search-content">
+                <div class="search">
+                    Quel est votre trajet?
+                    <div class="form">
+                        <div class="start-end">
+                            <input type="search" name="" value="" placeholder="gare départ">
+                            <input type="search" name="" value="" placeholder="gare arrivée">
+                        </div>
+                        <div class="date">
+                            <input type="date" name="" value="" placeholder="aller">
+                            <input type="date" name="" value="" placeholder="retour">
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="title">
+                        Les petits plus de Trainline
+                    </div>
+                    <div class="panel">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--
+    <footer>
+
+
+        <div class="bottom-footer">
+        </div>
+    </footer>-->
+
+</body>
+<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+
 </html>

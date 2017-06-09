@@ -1,0 +1,47 @@
+.languagepicker {
+    background-color: #D3D8DE;
+    display: inline-block;
+    padding: 0;
+    height: 30px;
+    overflow: hidden;
+    transition: all .3s ease;
+    margin: 0 50px 10px 0;
+    vertical-align: top;
+}
+
+.languagepicker:hover {
+    height: 80px;
+}
+
+.languagepicker a {
+    color: #000;
+    text-decoration: none;
+}
+
+.languagepicker li {
+    display: block;
+    padding: 0px 10px;
+    line-height: 30px;
+    border-top: 1px solid #EEE;
+}
+
+.languagepicker li:hover {
+    background-color: #D3D8DE;
+}
+
+.languagepicker a:first-child li {
+    border: none;
+    background: #D3D8DE !important;
+}
+
+.languagepicker li img {
+    margin-right: auto;
+}
+
+.roundborders {
+    border-radius: 5px;
+}
+
+.large:hover {
+    height: auto;
+}

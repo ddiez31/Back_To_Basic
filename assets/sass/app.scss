@@ -6,6 +6,13 @@
 
 @import 'vendor/font-awesome/font-awesome';
 
+/**
+|
+| variables
+|
+**/
+
+@import "modules/variables";
 
 /**
 |
@@ -13,15 +20,30 @@
 |
 **/
 
-
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+@import "modules/jumbotron";
+@import "modules/navbar";
+@import "modules/languages";
+@import "modules/buttons";
+@import "modules/footer";
+
 /**
 |    temp
 */
 
-body{
-	background-color: #212121;
-	h1{
-		color: #dedede;
-	}
+* {
+    margin: 0;
+    font-family: 'Raleway';
+    color: white;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 0.5em auto;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 20px;
+    margin: 0.5em auto;
 }

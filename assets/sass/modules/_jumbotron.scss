@@ -1,0 +1,36 @@
+.jumbotron {
+    img {
+        position: fixed;
+        z-index: -1;
+        width: 1365px;
+    }
+    .container {
+        min-height: 40em;
+        width: 80%;
+        margin: auto;
+        padding-top: 5em;
+        text-align: center;
+        text-shadow: 1px 1px 1px black;
+    }
+    .search-content {
+        display: flex;
+        margin: 3em auto;
+        justify-content: space-around;
+        color: black;
+        .search {
+            border-radius: 0.3em;
+            width: 45%;
+            min-height: 40em;
+            background: white;
+        }
+        .content {
+            @extend .search;
+            .title {
+                border-top-left-radius: 0.3em;
+                border-top-right-radius: 0.3em;
+                min-height: 4em;
+                background-color: rgb(35, 61, 94);
+            }
+        }
+    }
+}
